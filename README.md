@@ -32,6 +32,9 @@ For ON/OFF functionality use Pimoroni one-line installer for daemon configuratio
 ```
 curl https://get.pimoroni.com/onoffshim | bash
 ```
+ **IMPORTANT** Do not use pushbutton while using external signal for ON/OF
+as it might result in damaging of external driving circuitry. There is no protecting
+circuit to prevent it. Use only one ON/OFF source at a time.
 
 * I2C OLEDs
 There are multiple online tutorials and example code available online 
